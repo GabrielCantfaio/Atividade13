@@ -1,0 +1,101 @@
+/* Página */
+body {
+    padding: 40px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ccc8c8;
+}
+
+/* Flexbox */
+#Section_1 {
+    display: flex;
+    justify-content: center;
+    /* centraliza  */
+    gap: 20px;
+    /* espaço entre os cards */
+    margin-top: 30px;
+    flex-wrap: wrap;
+    /* quebra linha se não couber */
+}
+
+article {
+    flex: 1;
+}
+
+/* Cards */
+#Card_1 {
+    background-color: #0ac2f0c2;
+    border: 1px solid #030303;
+    border-radius: 12px;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+
+}
+
+#Card_2 {
+    background-color: #f4f4f7;
+    border: 1px solid #66fd02;
+    border-radius: 12px;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+#Card_3 {
+    background-color: #ff02d5;
+    border: 1px solid #0212fc;
+    border-radius: 12px;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+
+}
+
+#Card_4 {
+    background-color: #ff0000;
+    border: 1px solid #05fcf0;
+    border-radius: 12px;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+
+
+/* Botões */
+#Button1 {
+    margin-top: 50px;
+    padding: 20px;
+    border: none;
+    border-radius: 25px 35px;
+    background-color: #292828;
+    color: rgb(0, 253, 63);
+}
+
+#Button2 {
+    margin-top: 50px;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fd0404;
+    color: rgb(3, 3, 3);
+}
+
+#Button3 {
+    margin-top: 50px;
+    padding: 20px;
+    border: none;
+    border-radius: 15px 10px;
+    background-color: #07c5f5;
+    color: rgb(255, 255, 255);
+}
+
+#Button4 {
+    margin-top: 50px;
+    padding: 20px;
+    border: none;
+    border-radius: 60px;
+    background-color: #fafa06;
+    color: rgb(1, 5, 2);
+}
